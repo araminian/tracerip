@@ -1,0 +1,7 @@
+apiVersion: tracerip.io/v1alpha
+kind: IP
+metadata:
+  name: client1
+spec:
+  Network: net1
+  #IPAddress: 192.168.0.11

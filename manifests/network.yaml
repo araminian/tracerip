@@ -1,0 +1,10 @@
+apiVersion: tracerip.io/v1alpha
+kind: Network
+metadata:
+  name: net1
+spec:
+  CIDR: 192.168.0.0/24
+  ReservedRange: 192.168.0.10-192.168.0.20
+  ReservedIPs:
+    - 192.168.0.20
+    - 192.168.0.22
